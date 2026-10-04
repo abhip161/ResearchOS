@@ -21,6 +21,7 @@ build/
 terraform.tfstate
 terraform.tfstate.backup
 *.tfvars
+terraform/.terraform.lock*
 
 # Logs
 *.log
