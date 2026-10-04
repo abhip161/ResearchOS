@@ -2,8 +2,8 @@
 setlocal
 
 set REGION=us-east-1
-set BUCKET=research-agent-tfstate
-set TABLE=research-agent-tf-locks
+set BUCKET_NAME=research-agent-tfstate-abhi-2026
+set TABLE_NAME=research-agent-tf-locks-abhi-2026
 
 echo Creating S3 bucket: %BUCKET% in region: %REGION%
 

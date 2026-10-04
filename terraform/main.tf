@@ -10,10 +10,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "research-agent-tfstate"
+    bucket         = "research-agent-tfstate-abhi-2026"
     key            = "terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "research-agent-tf-locks"
+    dynamodb_table = "research-agent-tf-locks-abhi-2026"
     encrypt        = true
   }
 }
